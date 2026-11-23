@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <form>
+            <input type="number" id="num1" max="99999" min="-99999">
+            <select id="select">
+                <option value="suma">Suma</option>
+                <option value="resta">Resta</option>
+                <option value="multiplicacion">Multiplicación</option>
+                <option value="potencia">Potencia</option>
+            </select>
+            <input type="number" id="num2" max="99999" min="-99999">
+            <input type="button" value="Calcular" id="calcular"><br>
+        </form>
+
+        <div id="contenedor-resultado">
+            <p id="resultado"></p>
+        </div>
+    </body>
+</html>
